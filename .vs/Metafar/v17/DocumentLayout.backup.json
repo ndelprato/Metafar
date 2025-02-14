@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vboxuser\\Desktop\\Metafar\\Metafar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4337FD-625C-4CD3-97D7-C90454F36679}|Metafar.Infraestructura\\Metafar.Infraestructura.csproj|c:\\users\\vboxuser\\desktop\\metafar\\metafar\\metafar.infraestructura\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4337FD-625C-4CD3-97D7-C90454F36679}|Metafar.Infraestructura\\Metafar.Infraestructura.csproj|solutionrelative:metafar.infraestructura\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4337FD-625C-4CD3-97D7-C90454F36679}|Metafar.Infraestructura\\Metafar.Infraestructura.csproj|c:\\users\\vboxuser\\desktop\\metafar\\metafar\\metafar.infraestructura\\metafar.infraestructura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1F4337FD-625C-4CD3-97D7-C90454F36679}|Metafar.Infraestructura\\Metafar.Infraestructura.csproj|solutionrelative:metafar.infraestructura\\metafar.infraestructura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66980007-4F2D-4DEB-A909-B4851E0869AD}|Metafar\\Metafar.csproj|c:\\users\\vboxuser\\desktop\\metafar\\metafar\\metafar\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{66980007-4F2D-4DEB-A909-B4851E0869AD}|Metafar\\Metafar.csproj|solutionrelative:metafar\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F3F2A-C083-4A2F-95D5-9892B2AA3E10}|Metafar.Core\\Metafar.Core.csproj|c:\\users\\vboxuser\\desktop\\metafar\\metafar\\metafar.core\\models\\saldo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F3F2A-C083-4A2F-95D5-9892B2AA3E10}|Metafar.Core\\Metafar.Core.csproj|solutionrelative:metafar.core\\models\\saldo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F3F2A-C083-4A2F-95D5-9892B2AA3E10}|Metafar.Core\\Metafar.Core.csproj|c:\\users\\vboxuser\\desktop\\metafar\\metafar\\metafar.core\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F3F2A-C083-4A2F-95D5-9892B2AA3E10}|Metafar.Core\\Metafar.Core.csproj|solutionrelative:metafar.core\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A84F3F2A-C083-4A2F-95D5-9892B2AA3E10}|Metafar.Core\\Metafar.Core.csproj|c:\\users\\vboxuser\\desktop\\metafar\\metafar\\metafar.core\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A84F3F2A-C083-4A2F-95D5-9892B2AA3E10}|Metafar.Core\\Metafar.Core.csproj|solutionrelative:metafar.core\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4337FD-625C-4CD3-97D7-C90454F36679}|Metafar.Infraestructura\\Metafar.Infraestructura.csproj|c:\\users\\vboxuser\\desktop\\metafar\\metafar\\metafar.infraestructura\\repositorio\\irepositorio\\iusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4337FD-625C-4CD3-97D7-C90454F36679}|Metafar.Infraestructura\\Metafar.Infraestructura.csproj|solutionrelative:metafar.infraestructura\\repositorio\\irepositorio\\iusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66980007-4F2D-4DEB-A909-B4851E0869AD}|Metafar\\Metafar.csproj|c:\\users\\vboxuser\\desktop\\metafar\\metafar\\metafar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66980007-4F2D-4DEB-A909-B4851E0869AD}|Metafar\\Metafar.csproj|solutionrelative:metafar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Desktop\\Metafar\\Metafar\\Metafar.Infraestructura\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Metafar.Infraestructura\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\vboxuser\\Desktop\\Metafar\\Metafar\\Metafar.Infraestructura\\Data\\ApplicationDbContext.cs*",
+              "RelativeToolTip": "Metafar.Infraestructura\\Data\\ApplicationDbContext.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T03:15:34.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Metafar.Infraestructura.csproj",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Desktop\\Metafar\\Metafar\\Metafar.Infraestructura\\Metafar.Infraestructura.csproj",
+              "RelativeDocumentMoniker": "Metafar.Infraestructura\\Metafar.Infraestructura.csproj",
+              "ToolTip": "C:\\Users\\vboxuser\\Desktop\\Metafar\\Metafar\\Metafar.Infraestructura\\Metafar.Infraestructura.csproj",
+              "RelativeToolTip": "Metafar.Infraestructura\\Metafar.Infraestructura.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-14T03:14:45.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Desktop\\Metafar\\Metafar\\Metafar\\appsettings.json",
+              "RelativeDocumentMoniker": "Metafar\\appsettings.json",
+              "ToolTip": "C:\\Users\\vboxuser\\Desktop\\Metafar\\Metafar\\Metafar\\appsettings.json",
+              "RelativeToolTip": "Metafar\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-14T03:11:17.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Saldo.cs",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Desktop\\Metafar\\Metafar\\Metafar.Core\\Models\\Saldo.cs",
+              "RelativeDocumentMoniker": "Metafar.Core\\Models\\Saldo.cs",
+              "ToolTip": "C:\\Users\\vboxuser\\Desktop\\Metafar\\Metafar\\Metafar.Core\\Models\\Saldo.cs",
+              "RelativeToolTip": "Metafar.Core\\Models\\Saldo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T03:04:41.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Transaccion.cs",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Desktop\\Metafar\\Metafar\\Metafar.Core\\Models\\Transaccion.cs",
+              "RelativeDocumentMoniker": "Metafar.Core\\Models\\Transaccion.cs",
+              "ToolTip": "C:\\Users\\vboxuser\\Desktop\\Metafar\\Metafar\\Metafar.Core\\Models\\Transaccion.cs",
+              "RelativeToolTip": "Metafar.Core\\Models\\Transaccion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T02:44:32.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Desktop\\Metafar\\Metafar\\Metafar.Core\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Metafar.Core\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\vboxuser\\Desktop\\Metafar\\Metafar\\Metafar.Core\\Models\\Usuario.cs",
+              "RelativeToolTip": "Metafar.Core\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T02:41:42.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUsuarioRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Desktop\\Metafar\\Metafar\\Metafar.Infraestructura\\Repositorio\\IRepositorio\\IUsuarioRepositorio.cs",
+              "RelativeDocumentMoniker": "Metafar.Infraestructura\\Repositorio\\IRepositorio\\IUsuarioRepositorio.cs",
+              "ToolTip": "C:\\Users\\vboxuser\\Desktop\\Metafar\\Metafar\\Metafar.Infraestructura\\Repositorio\\IRepositorio\\IUsuarioRepositorio.cs",
+              "RelativeToolTip": "Metafar.Infraestructura\\Repositorio\\IRepositorio\\IUsuarioRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T01:37:38.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Desktop\\Metafar\\Metafar\\Metafar\\Program.cs",
+              "RelativeDocumentMoniker": "Metafar\\Program.cs",
+              "ToolTip": "C:\\Users\\vboxuser\\Desktop\\Metafar\\Metafar\\Metafar\\Program.cs",
+              "RelativeToolTip": "Metafar\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T01:34:47.526Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

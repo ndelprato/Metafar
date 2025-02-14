@@ -1,0 +1,17 @@
+/Users/nicolas/Downloads/Metafar/Metafar.Infraestructura/bin/Debug/net8.0/Metafar.Infraestructura.deps.json
+/Users/nicolas/Downloads/Metafar/Metafar.Infraestructura/bin/Debug/net8.0/Metafar.Infraestructura.runtimeconfig.json
+/Users/nicolas/Downloads/Metafar/Metafar.Infraestructura/bin/Debug/net8.0/Metafar.Infraestructura.dll
+/Users/nicolas/Downloads/Metafar/Metafar.Infraestructura/bin/Debug/net8.0/Metafar.Infraestructura.pdb
+/Users/nicolas/Downloads/Metafar/Metafar.Infraestructura/bin/Debug/net8.0/Metafar.Core.dll
+/Users/nicolas/Downloads/Metafar/Metafar.Infraestructura/bin/Debug/net8.0/Metafar.Core.pdb
+/Users/nicolas/Downloads/Metafar/Metafar.Infraestructura/obj/Debug/net8.0/Metafar.Infraestructura.csproj.AssemblyReference.cache
+/Users/nicolas/Downloads/Metafar/Metafar.Infraestructura/obj/Debug/net8.0/Metafar.Infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nicolas/Downloads/Metafar/Metafar.Infraestructura/obj/Debug/net8.0/Metafar.Infraestructura.AssemblyInfoInputs.cache
+/Users/nicolas/Downloads/Metafar/Metafar.Infraestructura/obj/Debug/net8.0/Metafar.Infraestructura.AssemblyInfo.cs
+/Users/nicolas/Downloads/Metafar/Metafar.Infraestructura/obj/Debug/net8.0/Metafar.Infraestructura.csproj.CoreCompileInputs.cache
+/Users/nicolas/Downloads/Metafar/Metafar.Infraestructura/obj/Debug/net8.0/Metafar..FEBFC5DF.Up2Date
+/Users/nicolas/Downloads/Metafar/Metafar.Infraestructura/obj/Debug/net8.0/Metafar.Infraestructura.dll
+/Users/nicolas/Downloads/Metafar/Metafar.Infraestructura/obj/Debug/net8.0/refint/Metafar.Infraestructura.dll
+/Users/nicolas/Downloads/Metafar/Metafar.Infraestructura/obj/Debug/net8.0/Metafar.Infraestructura.pdb
+/Users/nicolas/Downloads/Metafar/Metafar.Infraestructura/obj/Debug/net8.0/Metafar.Infraestructura.genruntimeconfig.cache
+/Users/nicolas/Downloads/Metafar/Metafar.Infraestructura/obj/Debug/net8.0/ref/Metafar.Infraestructura.dll

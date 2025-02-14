@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metafar", "Metafar\Metafar.csproj", "{66980007-4F2D-4DEB-A909-B4851E0869AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metafar.Core", "Metafar.Core\Metafar.Core.csproj", "{A84F3F2A-C083-4A2F-95D5-9892B2AA3E10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metafar.Infraestructura", "Metafar.Infraestructura\Metafar.Infraestructura.csproj", "{1F4337FD-625C-4CD3-97D7-C90454F36679}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A84F3F2A-C083-4A2F-95D5-9892B2AA3E10} = {A84F3F2A-C083-4A2F-95D5-9892B2AA3E10}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66980007-4F2D-4DEB-A909-B4851E0869AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66980007-4F2D-4DEB-A909-B4851E0869AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66980007-4F2D-4DEB-A909-B4851E0869AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66980007-4F2D-4DEB-A909-B4851E0869AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A84F3F2A-C083-4A2F-95D5-9892B2AA3E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84F3F2A-C083-4A2F-95D5-9892B2AA3E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84F3F2A-C083-4A2F-95D5-9892B2AA3E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84F3F2A-C083-4A2F-95D5-9892B2AA3E10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F4337FD-625C-4CD3-97D7-C90454F36679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4337FD-625C-4CD3-97D7-C90454F36679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4337FD-625C-4CD3-97D7-C90454F36679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4337FD-625C-4CD3-97D7-C90454F36679}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

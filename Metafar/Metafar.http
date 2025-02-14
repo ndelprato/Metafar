@@ -1,0 +1,6 @@
+@Metafar_HostAddress = http://localhost:5287
+
+GET {{Metafar_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

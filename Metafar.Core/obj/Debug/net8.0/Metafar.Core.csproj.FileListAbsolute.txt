@@ -1,0 +1,12 @@
+/Users/nicolas/Downloads/Metafar/Metafar.Core/bin/Debug/net8.0/Metafar.Core.deps.json
+/Users/nicolas/Downloads/Metafar/Metafar.Core/bin/Debug/net8.0/Metafar.Core.dll
+/Users/nicolas/Downloads/Metafar/Metafar.Core/bin/Debug/net8.0/Metafar.Core.pdb
+/Users/nicolas/Downloads/Metafar/Metafar.Core/obj/Debug/net8.0/Metafar.Core.csproj.AssemblyReference.cache
+/Users/nicolas/Downloads/Metafar/Metafar.Core/obj/Debug/net8.0/Metafar.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nicolas/Downloads/Metafar/Metafar.Core/obj/Debug/net8.0/Metafar.Core.AssemblyInfoInputs.cache
+/Users/nicolas/Downloads/Metafar/Metafar.Core/obj/Debug/net8.0/Metafar.Core.AssemblyInfo.cs
+/Users/nicolas/Downloads/Metafar/Metafar.Core/obj/Debug/net8.0/Metafar.Core.csproj.CoreCompileInputs.cache
+/Users/nicolas/Downloads/Metafar/Metafar.Core/obj/Debug/net8.0/Metafar.Core.dll
+/Users/nicolas/Downloads/Metafar/Metafar.Core/obj/Debug/net8.0/refint/Metafar.Core.dll
+/Users/nicolas/Downloads/Metafar/Metafar.Core/obj/Debug/net8.0/Metafar.Core.pdb
+/Users/nicolas/Downloads/Metafar/Metafar.Core/obj/Debug/net8.0/ref/Metafar.Core.dll
