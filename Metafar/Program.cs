@@ -1,3 +1,4 @@
+using Metafar.Infraestructura;
 using Metafar.Infraestructura.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,15 +13,17 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var app = builder.Build();
 
-//Agrego los respositorios
+
+//Agrego los controllers
+builder.Services.AddScoped<ISaldoRepositorio, SaldoRepositorio>();
 
 //builder.Services.AddScoped<ISaldoRepositorio, SaldoRepositorio>();
 
 // Add AutoMapper to the services container.
-//builder.Services.AddAutoMapper(typeof(ApiMapper));
+builder.Services.AddAutoMapper(typeof(ApiMappers));
 
+var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

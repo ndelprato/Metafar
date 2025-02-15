@@ -213,3 +213,4 @@ C:/Users/vboxuser/Desktop/Metafar/Metafar/Metafar/obj/Debug/net8.0/ref/Metafar.d
 /Users/nicolas/Downloads/Metafar/Metafar/obj/Debug/net8.0/Metafar.csproj.Up2Date
 /Users/nicolas/Downloads/Metafar/Metafar/obj/Debug/net8.0/Metafar.genruntimeconfig.cache
 /Users/nicolas/Downloads/Metafar/Metafar/obj/Debug/net8.0/ref/Metafar.dll
+/Users/nicolas/Downloads/Metafar/Metafar/obj/Debug/net8.0/Metafar.sourcelink.json
