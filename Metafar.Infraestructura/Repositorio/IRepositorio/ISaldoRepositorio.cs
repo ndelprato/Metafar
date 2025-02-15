@@ -4,8 +4,11 @@ namespace Metafar.Infraestructura;
 
 public interface ISaldoRepositorio
 {
-    Saldo getSaldo(int tarjeta);
+    Saldo GetSaldo(string tarjeta);
 
-    bool actualizarSaldo(Saldo saldo);
+    bool ActualizarSaldo(Saldo saldo);
+
+    bool ExisteSaldo(string tarjeta);
+    bool Guardar();
 
 }

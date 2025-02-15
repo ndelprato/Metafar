@@ -10,3 +10,4 @@
 /Users/nicolas/Downloads/Metafar/Metafar.Core/obj/Debug/net8.0/refint/Metafar.Core.dll
 /Users/nicolas/Downloads/Metafar/Metafar.Core/obj/Debug/net8.0/Metafar.Core.pdb
 /Users/nicolas/Downloads/Metafar/Metafar.Core/obj/Debug/net8.0/ref/Metafar.Core.dll
+/Users/nicolas/Downloads/Metafar/Metafar.Core/obj/Debug/net8.0/Metafar.Core.sourcelink.json
