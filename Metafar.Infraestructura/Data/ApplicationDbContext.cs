@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Metafar.Core.Models;
+using Microsoft.EntityFrameworkCore;
 
 using Microsoft.EntityFrameworkCore.Infrastructure;
 namespace Metafar.Infraestructura.Data
@@ -10,7 +11,9 @@ namespace Metafar.Infraestructura.Data
             
         }
         //Aca paso las entidades (modelos)
-        public DbSet<Metafar.Core.Models.Saldo> Saldo { get; set; }
+        public DbSet<Saldo> Saldo { get; set; }
+        public DbSet<Operaciones> Operaciones { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
 
 
     }

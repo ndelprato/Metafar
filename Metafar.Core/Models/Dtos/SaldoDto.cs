@@ -12,6 +12,7 @@ namespace Metafar.Core.Models.Dtos
         public int Id { get; set; }
         [Required(ErrorMessage = "El campo tarjeta es requerido")]
         public string Tarjeta { get; set; }
+         [Required(ErrorMessage = "El campo monto es requerido")]
         public string Monto { get; set; }
         public DateTime Fecha { get; set; }
     }

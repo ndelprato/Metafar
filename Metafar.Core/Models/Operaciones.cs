@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Metafar.Core.Models
 {
-    internal class Transaccion
+    public class Operaciones
     {
         [Key]
         public int Id { get; set; }

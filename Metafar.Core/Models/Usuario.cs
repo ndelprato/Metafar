@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 
 namespace Metafar.Core.Models
 {
-    internal class Usuario
+    public class Usuario
     {
         [Key]
         public int Id { get; set; }
         public string Tarjeta { get; set; }
         public string Password { get; set; }
+        public int Intentos { get; set; }
 
 
 
