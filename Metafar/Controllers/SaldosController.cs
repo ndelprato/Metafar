@@ -37,21 +37,7 @@ namespace MyApp.Namespace
             }
             return Ok(_mapper.Map<SaldoDto>(saldo));
         }
-
-        /*[HttpPost]
-        public ActionResult PostSaldo(SaldoDto saldoDto)
-        {
-            if (_saldoRepositorio.ExisteSaldo(saldoDto.Tarjeta))
-            {
-                return BadRequest("Ya existe un saldo para esta tarjeta");
-            }
-            var saldo = _mapper.Map<Saldo>(saldoDto);
-            if (_saldoRepositorio.ActualizarSaldo(saldo))
-            {
-                return Ok();
-            }
-            return StatusCode(StatusCodes.Status500InternalServerError);
-        }*/
+       
         [Authorize]
         [HttpPatch("{tarjeta}", Name = "RetiroController")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]

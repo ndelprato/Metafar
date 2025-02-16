@@ -21,33 +21,6 @@ namespace MyApp.Namespace
             _mapper = mapper;
         }
 
-        /*[Authorize]
-        [HttpGet("{tarjeta}", Name ="GetOperacionesTarjeta")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status403Forbidden)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public ActionResult<OperacionesDto> GetOperacionesTarjeta(string tarjeta)
-        {
-            try
-            {
-                var listaOperaciones = _operacionesRepositorio.GetOperacionesTarjeta(tarjeta);
-                if (listaOperaciones == null || !listaOperaciones.Any())
-                {
-                    return NotFound($"No se encontraron operaciones para la tarjeta {tarjeta}");
-                }
-                //var listaOperacionesDto = new List<OperacionesDto>();
-                var itemOperaciones = listaOperaciones.Select(x => _mapper.Map<OperacionesDto>(x)).ToList();
-                        
-                return Ok(itemOperaciones);
-            }
-            catch (Exception)
-            {                
-                return StatusCode(StatusCodes.Status500InternalServerError,"Error al obtener las operaciones");
-            }
-            
-        }*/
-
         [Authorize]
         [HttpGet("{tarjeta}", Name ="GetOperacionesTarjetaPaginado")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -82,38 +55,6 @@ namespace MyApp.Namespace
                 return StatusCode(StatusCodes.Status500InternalServerError,"Error al obtener las operaciones");
             }
             
-        }
-        
-
-        [HttpGet]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status403Forbidden)]
-        public IActionResult GetOperaciones()
-        {
-            var listaOperaciones = _operacionesRepositorio.GetOperaciones();
-            var listaOperacionesDTO = new List<OperacionesDto>();
-            foreach (var lista in listaOperaciones)
-            {
-                listaOperacionesDTO.Add(_mapper.Map<OperacionesDto>(lista));
-            }
-            return Ok(listaOperacionesDTO);
-        }
-
-
-
-        [HttpPost(Name = "AltaOperacion")]
-        [ProducesResponseType(StatusCodes.Status201Created)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
-        public ActionResult PostOperacion([FromBody]OperacionesDto operacionDto)
-        {
-            var operacion = _mapper.Map<Operaciones>(operacionDto);
-            if (_operacionesRepositorio.GuardarOperacion(operacion))
-            {
-                return CreatedAtRoute("GetOperacionesTarjeta", new { tarjeta = operacion.Tarjeta }, operacion);
-            }
-            return StatusCode(StatusCodes.Status500InternalServerError);
         }
     }
 }
