@@ -8,6 +8,8 @@ public interface ISaldoRepositorio
 
     bool ActualizarSaldo(Saldo saldo);
 
+    bool ActualizarMonto(Saldo saldo, string tarjeta);
+
     bool ExisteSaldo(string tarjeta);
     bool Guardar();
 

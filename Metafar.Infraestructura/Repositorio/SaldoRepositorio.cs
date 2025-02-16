@@ -14,6 +14,20 @@ public class SaldoRepositorio : ISaldoRepositorio
     public bool ActualizarSaldo(Saldo saldo)
     {
         saldo.Fecha = DateTime.Now;
+        
+        _bd.Saldo.Update(saldo);
+        return Guardar();
+    }
+
+    public bool ActualizarMonto(Saldo saldo, string tarjeta)
+    {
+        saldo.Fecha = DateTime.Now;
+        //Arreglar problema del patch
+        var saldoExistente = _bd.Saldo.Find(tarjeta);
+        saldo.Id = saldoExistente.Id;
+        saldo.Tarjeta = tarjeta;
+
+
         _bd.Saldo.Update(saldo);
         return Guardar();
     }

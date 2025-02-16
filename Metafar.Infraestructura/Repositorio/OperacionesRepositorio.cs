@@ -11,9 +11,22 @@ public class OperacionesRepositorio : IOperacionesRepositorio
     {
         _bd = bd;
     }
-    public ICollection<Operaciones> GetOperacionesTarjeta(string tarjeta)
+    /*public ICollection<Operaciones> GetOperacionesTarjeta(string tarjeta)
     {
         return _bd.Operaciones.Where(o => o.Tarjeta == tarjeta).ToList();
+    }
+*/
+    public ICollection<Operaciones> GetOperacionesTarjetaPaginado(string tarjeta, int pageNumber, int pageSize)
+    {
+        return _bd.Operaciones.Where(o => o.Tarjeta == tarjeta)
+            .Skip((pageNumber - 1) * pageSize)
+            .Take(pageSize)
+            .ToList();        
+    }
+
+    public int GetTotalOperaciones()
+    {
+        return _bd.Operaciones.Count();
     }
 
     public bool GuardarOperacion(Operaciones operacion)
