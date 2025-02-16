@@ -1,3 +1,4 @@
+using Metafar.Core.Models;
 using Metafar.Infraestructura;
 using Metafar.Infraestructura.Data;
 using Microsoft.EntityFrameworkCore;
@@ -17,6 +18,7 @@ builder.Services.AddSwaggerGen();
 
 //Agrego los controllers
 builder.Services.AddScoped<ISaldoRepositorio, SaldoRepositorio>();
+builder.Services.AddScoped<IOperacionesRepositorio, OperacionesRepositorio>();
 
 //builder.Services.AddScoped<ISaldoRepositorio, SaldoRepositorio>();
 
