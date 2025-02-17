@@ -8,6 +8,11 @@ EXPOSE 8080
 EXPOSE 8081
 
 
+# Copiar los scripts necesarios
+COPY init.sql /docker-entrypoint-initdb.d/init.sql
+
+CMD ["/bin/bash", "-c", "/wait-for-it.sh localhost:1433 -- /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P 'YourStrong!Passw0rd' -d master -i /docker-entrypoint-initdb.d/init.sql"]
+
 # Esta fase se usa para compilar el proyecto de servicio
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release

@@ -1,33 +1,33 @@
 version: '3.8'
 
 services:
-  api:
+  app:
     build:
-      context: ./  # Ubicación del Dockerfile
+      context: /Users/nicolas/Downloads/Metafar
       dockerfile: Dockerfile
-    container_name: api_service
+    container_name: metafar_app
     depends_on:
       - db
     environment:
-      - ConnectionStrings__DefaultConnection=Server=db;Database=MyDatabase;User Id=sa;Password=YourStrong!Passw0rd;
+      - ConnectionStrings__DefaultConnection=Server=localhost;Database=MetafarDB;User Id=sa;Password=YourStrong!Passw0rd;Trusted_Connection=False;MultipleActiveResultSets=true;TrustServerCertificate=true;
     ports:
-      - "8080:8080"
+      - "8080:8080"  # Ajusta según el puerto expuesto en tu Dockerfile
       - "5001:5001"
-    restart: always
+    restart: unless-stopped
 
   db:
     image: mcr.microsoft.com/mssql/server:2022-latest
-    container_name: sql_server
-    ports:
-      - "1433:1433"
+    container_name: metafar_db
     environment:
       SA_PASSWORD: "YourStrong!Passw0rd"
       ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
     volumes:
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
-      - sql_data:/var/opt/mssql
-      
+      - sqlserver_data:/var/opt/mssql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql    
+    restart: unless-stopped
 
 volumes:
-  sql_data:
+  sqlserver_data:
     driver: local

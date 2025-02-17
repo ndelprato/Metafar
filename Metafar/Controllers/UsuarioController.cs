@@ -22,28 +22,6 @@ namespace MyApp.Namespace
             this._respuestaApi = new();
         }
 
-
-        [HttpPost("Registro")]
-        [ProducesResponseType(StatusCodes.Status201Created)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-         
-        public async Task<ActionResult> Registro([FromBody] UsuarioRegistroDto usuarioRegistroDto)
-        {
-            var usuario =  await _usuarioRepositorio.Registro(usuarioRegistroDto);
-            if (usuario == null)
-            {
-                _respuestaApi.IsSuccess = false;
-                _respuestaApi.StatusCode = HttpStatusCode.BadRequest;
-                _respuestaApi.ErrorMessages.Add("Error al registrar usuario");
-                return BadRequest(_respuestaApi);
-            }
-            _respuestaApi.StatusCode = HttpStatusCode.OK;
-            _respuestaApi.IsSuccess = true;
-            return Ok(_respuestaApi);
-        }
-
-
         [HttpPost("Login")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
