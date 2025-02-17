@@ -24,8 +24,9 @@ services:
       SA_PASSWORD: "YourStrong!Passw0rd"
       ACCEPT_EULA: "Y"
     volumes:
-      - sql_data:/var/opt/mssql
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - sql_data:/var/opt/mssql
+      
 
 volumes:
   sql_data:

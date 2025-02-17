@@ -101,6 +101,9 @@ INSERT INTO Operaciones (Id, Operacion,MontoInicial,MontoFinal,Tarjeta,Fecha) VA
 INSERT INTO Operaciones (Id, Operacion,MontoInicial,MontoFinal,Tarjeta,Fecha) VALUES (13, 'Extracción','6000','5500','123456','2021-06-01 00:00:00.000');
 INSERT INTO Operaciones (Id, Operacion,MontoInicial,MontoFinal,Tarjeta,Fecha) VALUES (14, 'Extracción','5500','4000','123456','2021-06-01 00:00:00.000');
 INSERT INTO Operaciones (Id, Operacion,MontoInicial,MontoFinal,Tarjeta,Fecha) VALUES (15, 'Extracción','4000','3500','123456','2021-06-01 00:00:00.000');
+INSERT INTO Operaciones (Id, Operacion,MontoInicial,MontoFinal,Tarjeta,Fecha) VALUES (15, 'Extracción','4000','3500','123','2021-06-01 00:00:00.000');
+INSERT INTO Operaciones (Id, Operacion,MontoInicial,MontoFinal,Tarjeta,Fecha) VALUES (15, 'Extracción','4000','3500','1234','2021-06-01 00:00:00.000');
+INSERT INTO Operaciones (Id, Operacion,MontoInicial,MontoFinal,Tarjeta,Fecha) VALUES (15, 'Extracción','4000','3500','12345','2021-06-01 00:00:00.000');
 GO
 SET IDENTITY_INSERT Operaciones OFF
 GO
@@ -109,10 +112,10 @@ GO
 -- Insertar datos de saldos
 SET IDENTITY_INSERT Saldo ON
 GO
-INSERT INTO Saldo (Id, Tarjeta,Password,Intentos) VALUES (1, '123456','21232f297a57a5a743894a0e4a801fc3',3);
-INSERT INTO Saldo (Id, Tarjeta,Password,Intentos) VALUES (1, '123','21232f297a57a5a743894a0e4a801fc3',3);
-INSERT INTO Saldo (Id, Tarjeta,Password,Intentos) VALUES (1, '1234','21232f297a57a5a743894a0e4a801fc3',3);
-INSERT INTO Saldo (Id, Tarjeta,Password,Intentos) VALUES (1, '12345','21232f297a57a5a743894a0e4a801fc3',3);
+INSERT INTO Saldo (Id, Tarjeta,Monto,Fecha) VALUES (1, '123456','3500','2021-06-01 00:00:00.000');
+INSERT INTO Saldo (Id, Tarjeta,Monto,Fecha) VALUES (1, '123','3500','2021-06-01 00:00:00.000');
+INSERT INTO Saldo (Id, Tarjeta,Monto,Fecha) VALUES (1, '1234','3500','2021-06-01 00:00:00.000');
+INSERT INTO Saldo (Id, Tarjeta,Monto,Fecha) VALUES (1, '12345','3500','2021-06-01 00:00:00.000');
 GO
 SET IDENTITY_INSERT Saldo OFF
 GO
